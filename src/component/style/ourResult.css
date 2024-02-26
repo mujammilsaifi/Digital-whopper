@@ -1,0 +1,132 @@
+.marketing-result{
+    background-color: #efebeb;
+    padding: 20px;
+}
+.result-t1{
+    font-size: 34px;
+    color: #11161e;
+    font-family: "Oswald",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.carousel-item{
+    max-height: 400px;
+}
+
+.result{
+    display: flex;
+    background-color:white;
+    height: 300px;
+    float: left;
+    padding: 10px 60px;
+    border-left: solid 5px #000000;
+    border-right: solid 5px #000000;
+}
+.text{
+    width: 50%;
+    padding: 50px;
+}
+.text h2{
+    color: #373737;
+    font-family: "Oswald",Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.text p{
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: .4px;
+    margin-bottom: 16px;
+}
+.img-result img{
+    width: 400px;
+}
+
+.btn-view-story{
+    text-decoration: none;
+    color: purple;
+    font-family: "Lato",Sans-serif;
+    font-size: 16px;
+    font-weight: 700; 
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: .4px;
+}
+.carousel-control-prev-icon{
+    background-image: none;
+}
+.carousel-control-next-icon{
+    background-image: none;
+}
+.next-icon{
+    color: #060605;
+    font-size: 30px;
+    margin-right: -40px;
+}
+.prev-icon{
+    color: #070605;
+    font-size: 30px;
+    margin-left: -40px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .marketing-result{
+       
+        padding: 5px;
+    }
+    .result-t1{
+        font-size: 34px;
+        line-height: 1.3;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .result{
+        flex-direction: column;
+        padding: 10px;
+        height: 500px;
+    }
+
+    .text{
+        width: 100%;
+        padding: 0px;
+    }
+    .img-result img{
+        padding: 20px 5px;
+        border-radius: 40px;
+    }
+    .carousel-item{
+        max-height: 400px;
+    }
+    .text h2{  
+        font-size: 24px;
+        margin: 0 0 10px;
+    }
+    .text p{
+        line-height: 23px;
+        letter-spacing: .4px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .btn-view-story{
+        font-size: 14px;
+    }
+    .next-icon{
+        display: none;
+    }
+    .prev-icon{
+        display: none;
+    }
+    .carousel-item{
+        max-height: 450px;
+    }
+}

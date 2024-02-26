@@ -1,0 +1,251 @@
+.social-media {
+    background-color: #c4c4c4;
+    background-image: url('../images/background-all-page.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 200px 100px 100px;
+}
+.social-media h2{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 6px;
+}
+.social-media h1{
+    color: black;
+    font-family: "Oswald",Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.social-media p{
+    color: #8b8a8a;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif; 
+    padding:20px 0px;
+}
+.social-h{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.social-service{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.social-div{
+    margin: 20px;
+    width: 25%;
+    text-align: start;
+    border: solid 2px gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+.social-div:hover{
+    border: solid 2px black;
+}
+.social-div img{
+    width: 70px;
+}
+.social-div h3{
+    font-family: "Oswald",Sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.platforms{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+.platforms p{
+    color: #ffa800;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 11px;
+}
+.platforms h3{
+    color: #e9e9e9;
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.platforms h2{
+    color: #d5d5d5;
+    font-size: 14px;
+}
+.platform{
+   display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+.platform-div{
+    text-align: start;
+    padding: 20px;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin: 10px;
+}
+svg.svg-inline--fa.fa-facebook {
+    font-size: 56px;
+    color: white;
+}
+svg.svg-inline--fa.fa-youtube {
+    font-size: 56px;
+    color: white;
+}
+svg.svg-inline--fa.fa-instagram {
+    font-size: 56px;
+    color: white;
+}
+svg.svg-inline--fa.fa-linkedin {
+    font-size: 56px;
+    color: white;
+}
+
+svg.svg-inline--fa.fa-twitter {
+    font-size: 56px;
+    color: white;
+}
+svg.svg-inline--fa.fa-pinterest{
+    font-size: 56px;
+    color: white;
+}
+
+.platform-div h2{
+    font-family: "Oswald",Sans-serif;
+    font-weight: 400;
+    color: #d5d5d5;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+.grow-your-social {
+ text-align: center;
+ padding: 80px;
+ background-color: transparent;
+ background-image: url('../images/strategy-background.jpg');
+}
+.grow-your-social p{
+    color: #fff;
+    font-family: "Verdana",Sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.why-choose-social{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.why-choose-social h6{
+    color: #ffa800;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 11px;
+}
+.why-choose-social h5{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.why-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div-why-social{
+    width: 40%;
+}
+.div-why-social ul{
+    padding: 20px;
+}
+.div-why-social ul li{
+    color: #000;
+    font-size: 16px;
+    text-align: start;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .social-media {
+        padding: 50px 20px;
+    }
+    .social-media h1{
+        padding: 60px 20px 20px 0px;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 48px;
+        margin-bottom: 0px;
+    }
+    .social-media p {
+        font-size: 20px;
+    }
+    .ppc-sec-2 h6 {
+        font-size: 38px;
+    }
+    .social-service{
+        flex-direction: column;
+    }
+    .platform{
+        display: grid;
+       grid-template-columns: auto auto;
+       padding: 10px;
+       width: 100%;
+       margin: auto;
+    }
+     .grow-your-social {
+        padding: 20px;
+     }
+     .why-social{
+        flex-direction: column; 
+    }
+    .div-why-social{
+        width: 100%;
+        padding-top: 28px;
+    }
+    .div-why-social ul{
+        padding: 10px 40px;
+    }
+    .div-why-social img{
+        width: 90%;
+    }
+}
+@media (min-width: 767px) and (max-width: 821px) {
+
+    /* for tablet iPad */
+    .social-media h1{
+        padding: 60px 20px 20px 0px;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 48px;
+        margin-bottom: 0px;
+    }
+    .social-media {
+        padding: 80px 40px;
+    }
+    .software-div {
+        width: 50%;
+    }
+}

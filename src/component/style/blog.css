@@ -1,0 +1,89 @@
+
+.blog-row{
+    justify-content: center;
+}
+.card img {
+    width: 100%;
+}
+.card {
+    margin: 10px 25px;
+    border: none;
+    box-shadow: 0px 3px 3px #595a5c;
+}
+
+.card a{
+    text-decoration: none;
+}
+.card-width{
+    width: 20rem;
+}
+.card-width:hover{
+    
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.category-btn{
+    color: #11161e;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.3;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+.category-btn:hover{
+    
+    color: black !important;
+}
+
+.card-title{
+    font-weight: 500;
+    color: #11161e;  
+    transition: all .3s;
+    font-family: "Oswald",sans-serif;    
+}
+.card-title:hover{
+    color: #8c8888;
+}
+
+.card-text{
+    color: #777;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card{
+        margin: 10px;
+    }
+    
+}
+@media (min-width: 767px) and (max-width: 821px) {
+    /* for mobile responsive */
+    .card-width {
+        width: 18rem !important;
+    }
+    
+}
+
+
+/* ---------------------------css for Blog-1--------------------------------- */
+.section{
+    margin-top: 120px;
+    padding-bottom: 0;
+}
+.section img{
+    width: 100%; 
+    height: 50%;
+}
+.blog-content{
+    padding-bottom: 80px;
+}
+.blog-content h1{
+    padding: 20px 0px;
+    text-decoration: underline;
+    font-family: "Oswald",Sans-serif;
+}
+
+

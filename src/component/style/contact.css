@@ -1,0 +1,104 @@
+
+.contact-t1{
+    background-image: url('../images/background-all-page.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 100px 100px;
+   
+}
+.contact-t1 h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 6px;
+}
+.contact-t1 h2{
+    color: black;
+    font-family: "Oswald",Sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+}
+.d-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div{
+    margin: 40px 20px;
+    text-align: center;
+    width: 25%;
+    border: #000000 solid 3px;
+    padding: 15px;
+}
+.div:hover{  
+    border: #dddbd6 solid 3px;    
+}
+
+.div span .svg-inline--fa{
+    background-color:  black;
+    color: #ffff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.div h3{
+    font-family: "Oswald",Sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+.div p{
+    color: #1a0202;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+}
+.container-p{
+    background: #f7f7f3e2;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif; 
+}
+.contact-form{
+    margin: 20px auto;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .contact-t1{
+        padding: 100px 10px;
+       
+    }
+    .d-address{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div{
+        margin: 20px;
+        text-align: center;
+        width: 90%;
+        padding: 15px;
+    }
+    .contact-form{
+        margin: 0px;
+        width: 100%;
+    }
+    .submit-btn{
+        margin-left: 1px;
+    }
+}
+@media (min-width: 767px) and (max-width: 821px) {
+
+    /* for tablet iPad */
+    .div{
+        width: 29%;
+    }
+    .contact-form{
+        width: 79%;
+    }
+    
+}

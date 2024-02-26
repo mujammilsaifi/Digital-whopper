@@ -1,0 +1,218 @@
+.response{
+    text-align: center;
+    color: green;
+}
+.response-hide{
+    display: none;
+}
+.careers-sec-1{
+    padding: 250px 100px;
+    background-image: url('../images/careers-back .jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    height: 450px;
+    width: 100%;
+}
+.careers-sec-1 h1{
+    font-family: "Oswald";
+    color: black;
+    font-size: 62px;
+    font-weight: 700;
+}
+.post-container h2{
+    text-align: center;
+    padding: 50px;
+    font-family: "Oswald",Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+}
+.open-post{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.position{
+    width: 20%;
+    font-family: "Oswald",Sans-serif;
+}
+.position h3{
+    font-size: 26px;
+    font-weight: 400;
+    padding:28px 0px;
+    text-decoration: underline;
+}
+.location{
+    text-align: center;
+    width: 15%;
+    font-family: "Oswald",Sans-serif;
+}
+.location h6{
+    padding:35px 0px;
+    color: #a4a0a0;
+}
+.type{
+    text-align: center;
+    width: 15%;
+    font-family: "Oswald",Sans-serif;
+}
+.type h6{
+    padding:35px 0px;
+    color: #9c9999;
+}
+.apply-btn{
+    width: 20%;
+}
+.apply-btn a{
+    display: block;
+    text-decoration: none;
+}
+.apply-button{
+    color: white;
+    background: black;
+    padding: 10px 10px;
+    margin-top: 60px;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    font-family: "Oswald",Sans-serif;
+}
+.apply-button:hover{
+    background: #c4c4c4;
+    color: black;
+}
+.apply-form{
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+#role{
+    padding: 10px;
+    margin-left: 10px;
+}
+.our-perks{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient(rgb(233, 124, 124), rgba(255, 255, 0, 0.568));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-perks h6{
+    font-family: "Oswald";
+    color: black;
+    font-size: 62px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .careers-sec-1{
+        padding: 160px 81px;
+        height: 400px;
+    }
+    .post-container h2{
+        padding: 10px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .open-post{
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .position{
+        width: 30%;
+    }
+    .position h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .location{
+        width: 20%;
+    }
+    .location h6{
+        padding:35px 0px;
+        color: #a4a0a0;
+        font-size: 12px;
+    }
+    .type{
+        text-align: center;
+        width: 22%;
+        font-family: "Oswald",Sans-serif;
+    }
+    .type h6{
+        padding:35px 0px;
+        color: #9c9999;
+        font-size: 12px;
+    
+    }
+    .apply-btn{
+        width: 27%;
+    }
+    .apply-btn a{
+        display: block;
+        text-decoration: none;
+    }
+    .apply-button{
+        padding: 5px 2px;
+        margin-top: 75px;
+        width: 100px;
+    }
+    
+}
+@media (min-width: 767px) and (max-width: 821px) {
+     /* For tablet iPad: */
+    .careers-sec-1{
+        padding: 160px 60px;
+        height: 350px;
+    }
+    .post-container h2{
+        padding: 10px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .open-post{
+        margin-left: 47px;
+        padding: 28px;
+    }
+    .position{
+        width: 30%;
+    }
+    .position h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .location{
+        width: 20%;
+    }
+    .location h6{
+        padding:35px 0px;
+        color: #a4a0a0;
+        font-size: 12px;
+    }
+    .type{
+        text-align: center;
+        width: 25%;
+        font-family: "Oswald",Sans-serif;
+    }
+    .type h6{
+        padding:35px 0px;
+        color: #9c9999;
+        font-size: 12px;
+    
+    }
+    .apply-btn{
+        width: 27%;
+    }
+    .apply-btn a{
+        display: block;
+        text-decoration: none;
+    }
+    .apply-button{
+        padding: 5px 2px;
+        margin-top: 60px;
+        width: 100px;
+    }
+}

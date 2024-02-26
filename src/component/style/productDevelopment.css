@@ -1,0 +1,226 @@
+.product-sec-1{
+    padding: 200px 100px 100px;
+    background-image: url('../images/background-all-page.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-sec-1 h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 11px;
+}
+.product-sec-1 h1{
+    color: black;
+    font-family: "Oswald",Sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+.product-sec-1 p{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-right: 400px;
+    padding-top: 20px;
+}
+.product-sec-2{
+    padding: 50px;
+    text-align: center;
+}
+.product-sec-2 h2{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    padding-bottom: 20px;    
+}
+.product-sec-2 p{
+    text-align: start;
+    font-family: "Oswald",Sans-serif;
+    color: #777;
+    font-weight: 300;
+}
+.product-sec-3{
+    padding: 40px;
+    text-align: center;
+    background-color: black;
+}
+.product-sec-3 h6{
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 6px;
+}
+.product-sec-3 h2{
+    color: #f3f3f3;
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.product-dev-benefit{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+.dev-benefit{
+    border: solid 2px #c4c4c4;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.dev-benefit img{
+    width: 30%;
+}
+.dev-benefit h3{
+    color: #b6b6b6;
+    font-family: "Oswald",Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.product-why-choose{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    width: 90%;
+    padding: 50px;
+}
+.product-div{
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 2px 4px 0px #1b1919;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.product-div img{
+    width: 25%;
+}
+.product-div h2{
+    font-family: "Oswald",Sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.product-sec-4{
+    text-align: center;
+    padding-top: 50px;
+}
+.product-sec-4 h6{
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 11px;
+}
+.product-sec-4 h5{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.product-sec-4 p{
+    font-family: "Oswald",Sans-serif;
+    color: #1d1515;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+   padding: 20px 100px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .product-sec-1{
+        padding: 80px 20px;
+    }
+    .product-sec-1 p{
+        padding-right: 10px;
+    }
+    .product-sec-2{
+        padding: 20px;
+    }
+    .product-sec-3{
+        padding: 20px;
+    }
+    .product-dev-benefit{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        margin: auto;
+    }
+    .dev-benefit{
+        text-align: center;
+        width: 161px;
+        box-shadow: 0px 2px 4px 0px #1b1919;
+        margin: 10px 5px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .product-div img{
+        width: 25%;
+    }
+    .product-sec-3 h2{
+        font-size: 30px;
+    }
+    .product-sec-4 p {
+        padding: 10px 20px;
+    }
+
+    .product-why-choose{
+        grid-template-columns: auto auto ;
+        margin: auto;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .product-div{
+        text-align: center;
+        width: 160px;
+        box-shadow: 0px 2px 4px 0px #1b1919;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 767px) and (max-width: 821px) {
+    .product-sec-1{
+        padding: 80px 40px;
+    }
+    .product-sec-1 p{
+        padding-right: 10px;
+    }
+    .product-sec-2{
+        padding: 40px 20px;
+    }
+    .product-sec-3{
+        padding: 40px 20px;
+    }
+    .product-dev-benefit{
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin: auto;
+    }
+    .dev-benefit {
+        border: solid 2px #c4c4c4;
+        width: 292px;
+        padding: 20px 10px;
+    }
+    .product-why-choose{
+        grid-template-columns: auto auto ;
+        margin: auto;
+        width: 85%;
+        padding: 30px 10px;
+    }
+}

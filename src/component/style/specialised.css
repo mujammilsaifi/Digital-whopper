@@ -1,0 +1,56 @@
+.specilised-p{
+    text-align: center;
+   margin-top: 80px;
+    color: #777;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    
+}
+.child-box{
+    height: 200px;
+    width: 23%;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px #1b1919;
+}
+.child-box:hover{
+    border: 1px solid orange;
+}
+.child-box img{
+    margin-top: 15px;
+    width: 30%;
+}
+.child-box h2{
+    margin-top: 30px;
+    font-family: "Oswald",Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .box{
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    .child-box{
+        height: 150px;
+        width: 43%;        
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 821px) {
+    /* for tablet */
+    .child-box {
+        height: 200px;
+        width: 30%;
+        margin: 10px;
+    }
+}

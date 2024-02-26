@@ -1,0 +1,28 @@
+.pagenot{
+    height: 700px;
+    background-color: #c4c4c4;
+    background-image: url("../images/full-shot-man-with-backpack-desert_23-2149408621.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.pageNot{
+    margin: auto;
+    text-align: center;
+}
+.pageNot h1{
+    
+    padding-top: 300px;
+    color: white;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+}
+.pageNot h2{
+    color: white;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+}

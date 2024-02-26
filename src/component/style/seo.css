@@ -1,0 +1,171 @@
+.sec{
+    
+    height: 400px;
+    width: 100%;
+    background-image: url('../images/seo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.seo-sec-1{
+    padding: 50px 100px;
+    background-color: white;
+}
+.seo-sec-1 h1{
+    font-family: "Oswald";
+    color: black;
+    font-size: 52px;
+}
+.seo-sec-1 p{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.seo-sec-1 img{
+    width: 80%;
+}
+.seo-sec-1 h2{
+    font-family: "Oswald";
+    color: black;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+.seo-sec-1 h3{
+    font-family: "Oswald";
+    font-size: 34px;
+    padding-top: 30px;
+    color: black;
+}
+.seo-sec-1 ul{
+    color: black;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.seo-sec-2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.seo-sec-2 h2{
+    font-family: "Oswald";
+    padding-top: 30px;
+}
+.div-seo{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.div-seo img{
+    width: 80px;
+}
+.div-seo p{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.seo-sec-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.type-seo-1{
+    width: 425px;
+    border: solid 2px #c4c4c4;
+    margin: 10px;
+}
+.type-seo-h{
+    font-family: "Oswald";
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-bottom: solid 2px #c4c4c4;
+}
+.type-seo-c{
+    padding: 10px;
+}
+.seo-sec-4{
+    width: 70%;
+    margin: auto;
+    
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color:#ebebeb;
+}
+.seo-sec-4 h2{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.3;
+    color: black;
+    font-size: 18px;
+}
+.seo-sec-4 h3{
+    color: black;
+    font-family: "Oswald";
+    font-style: normal;
+    line-height: 1.3;
+}
+.seo-sec-4 h6{
+    color: #11161e;
+    font-family: "Oswald";
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 24px;
+}
+.seo-sec-4 p{
+    font-family: 'Poppins', sans-serif; 
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .seo-sec-1{
+        padding: 50px  20px;
+        margin-top: 100px;
+    }
+    .seo-sec-1 h1{
+        
+        font-size: 48px;
+    }
+    .seo-sec-1 img{
+        width: 100%;
+    }
+    .seo-sec-2{
+        text-align: center;
+        width: 95%;
+        margin: auto;
+    }
+    .seo-sec-3 {
+        grid-template-columns: auto;
+    }
+    .type-seo-1 {
+        width: 350px;
+    }
+    .seo-sec-4{
+        width: 95%;
+        padding: 10px;
+    }
+    .seo-sec-4 h2 {
+        font-size: 44px;
+    }
+    
+}
+@media (min-width: 767px) and (max-width: 821px) {
+
+    /* for tablet iPad */
+    .seo-sec-1{
+        padding: 80px  40px;
+    }
+    .seo-sec-3{
+       grid-template-columns: auto auto;
+    }
+    .type-seo-1 {
+        width: 385px;
+    }
+    .seo-sec-4 {
+        width: 95%;
+    }
+}

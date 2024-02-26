@@ -1,0 +1,381 @@
+.our-strategy{
+    background-image: url('../images/strategy-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    text-align: center;  
+    padding: 30px 10px;
+}
+.strategy-t1{
+    color: #fff;
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 0px;
+    padding: 30px 0px 10px 0px;
+}
+.strategy-t2{
+    color: #e2ecda;
+    font-family: "Oswald",Sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.strategy-img img{
+    padding: 10px 20px;
+    width: 22%;;
+}
+
+.our-client{
+    margin-top: 60px;
+    text-align: center;
+
+}
+.client-t1{
+    color: #ffa800;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 11px;
+}
+.client-t2{
+    font-family: "Oswald",Sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.client-img{
+    width: 100%;
+    padding-top: 35px;
+}
+.client-img img{
+    width: 100%;
+}
+
+.why-choose{
+    margin-top: 40px;
+    text-align: center;
+}
+.why-choose p{
+    color: #777;
+}
+
+/* CSS FOR WHY CHOOSE COL */
+.why-Parent {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.why-child1 {
+    width: 40%;
+   
+}
+.why-child1 h3{
+    text-align: start;
+    color: black;
+    font-size: 18px;
+    font-family: "Oswald",Sans-serif;
+}
+.why-child1 p{
+    text-align: start;
+}
+
+.why-child2 {
+    width: 40%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item{
+    border: black 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.grid-item:hover{
+    border: black 2px solid ;
+}
+.grid-item h3{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.grid-item img{
+    width: 60%;
+}
+
+
+
+.our-work-stats{
+    text-align: center;
+    background: url('../images/figure-back.webp') fixed ;
+    background-size: cover;
+}
+.our-work-stats h2{
+    color: #fff;
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 40px;
+}
+.number-stats{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+.number-stats .num{
+    margin: 30px;
+    
+}
+.number-stats .num p{
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    font-family: "Oswald",Sans-serif;
+}
+.number-stats .num p span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* TESTIMONIAL CSS HERE */
+
+.testimonial h2{
+    color: #e29417;
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 40px;
+}
+.testimonial h3{
+    color: #11161e;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.testimonial-content{
+    width: 95%;
+    margin: auto; 
+    box-shadow: 0px 2px 4px 0px #1b1919;
+    padding: 20px;  
+    margin: 10px;  
+}
+.testimonial-content img{
+    width: 90px;
+    border-radius: 50%;
+    height: 90px;
+}
+.content-div{
+    height: 230px;
+    padding: 20px 0px;
+}
+.testimonial-content h4{
+    font-family: "Oswald",Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 0px;
+    color: #11161e;
+    margin: 5px 5px 7px -10px;
+}
+.testimonial-content p{
+    font-family: "Oswald",Sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #11161e;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color:#ffa800;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+#slider
+{
+	height: 400px;
+}
+
+#slider
+{
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	margin-top: 50px;
+	position: relative;
+	width: 90%;
+}
+
+#slider li
+{
+	position: relative;
+	width: 600px;
+	display: inline-block;
+	height: 200px;
+}
+
+#slider ul
+{
+	list-style: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 9000px;
+	transition: left .2s linear;
+	-moz-transition: left .2s linear;
+	-o-transition: left .2s linear;
+	-webkit-transition: left .2s linear;
+	margin-left: -25px;
+  font-family: open sans;
+  color: #666;
+}
+
+/*** target hooks ****/
+
+@keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-600px; opacity:1;}
+	45% {left:-600px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1200px; opacity:1;}
+	70% {left:-1200px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-1800px; opacity:1;}
+	95% {opacity:1;}
+	98% {left:-1800px; opacity:0;} 
+	100% {left:0px; opacity:0;}
+}
+
+#slider ul
+{
+	animation: slide-animation 20s infinite;
+}
+
+#slider ul:hover
+{
+	animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .strategy-t2{
+        padding: 0px 20px;
+    }
+    .strategy-img img{
+       width: 50%;
+       padding: 28px;
+    }
+    .client-t2{
+        padding:10px;
+    }
+
+
+    /* why choose us */
+    .why-choose p{
+        padding: 10px 22px;
+    }
+    .why-Parent {
+        flex-direction: column;
+        margin-top: 24px;
+
+    }
+    .why-child1 {
+        width: 100%;       
+    }
+    .why-child1 h3{
+        padding-left: 23px;
+    }
+    .why-child2 {
+        width: 100%;       
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+
+    .number-stats {
+        grid-template-columns: auto;        
+    }
+    .number-stats .num {
+        margin: 20px;
+    }
+    .testimonial-content {
+        width: 94%;
+    }
+    .testimonial h3 {
+        padding:5px;
+    }
+   
+    .accodian {
+        width: 100%;
+        margin: 10px;
+    }
+    .item-title h2 {
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media (min-width: 767px) and (max-width: 821px) {
+    /* for tablet */
+    .strategy-img img{
+        padding: 10px 10px;
+        width: 25%;
+        
+    }
+    .why-choose p{
+        padding: 10px 22px;
+    }
+    .why-Parent {
+        flex-direction: column;
+        margin-top: 24px;
+
+    }
+    .why-child1 {
+        width: 100%;       
+    }
+    .why-child1 h3{
+        padding-left: 23px;
+    }
+    .why-child2 {
+        width: 100%;       
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+    .content-div{
+        height: 245px;
+        padding: 20px 0px;
+    }
+}

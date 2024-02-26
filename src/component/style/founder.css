@@ -1,0 +1,176 @@
+/* .founder{
+    background-image: url('../images/background-all-page.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.founder h1{
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 52px;
+    padding-top: 200px;
+}
+.founder h2{
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.founder-1{
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 150px;
+}
+.founder-2{
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+.founder-div-img{
+    width: 35%;
+    margin-top: 30px;
+    margin-right: 40px;
+    position: relative;
+    border: solid 5px black;
+}
+.founder-2 .founder-div-img{
+    width: 35%;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+    border: solid 5px black;
+}
+.founder-2 .founder-div-img img{
+
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    left: 30px;
+}
+.founder-div-img img{
+
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    right: 30px;
+}
+.founder-div-text{
+    width: 40%;
+    padding-top: 50px;
+}
+.founder-div-text h3{
+    font-size: 22px;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.3;
+}
+.founder-div-text p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.founder-div-text h5{
+    font-family: "Oswald";
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 26px;
+}
+.founder2-show{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .founder h1 {
+        padding-top: 150px;
+    }
+    .founder-2{
+        display: none;
+    }
+    .founder h2 {
+        font-size: 14px;
+    }
+    .founder-1{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .founder-div-img{
+        width: 88%;
+        margin-top: 10px;
+        margin-left: 30px;
+        position:relative;
+        border: solid 5px black;
+    }
+    .founder-div-img img{
+        position: relative;
+        width: 100%;
+        top: 15px;
+        right: 15px;
+    }
+    .founder-div-text {
+        position: static;
+        width: 94%;
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+    .founder-div-text h3 {
+        font-size: 20px;
+    }
+    .founder2-show{
+        display: block;
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 821px) {
+        /* For tablet iPad: */
+        .founder-2{
+            display: none;
+        }
+        .founder h2 {
+            font-size: 24px;
+        }
+        .founder-1{
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
+        .founder-div-img{
+            width: 60%;
+            margin-top: 10px;
+            margin-left: 150px;
+            position:relative;
+            border: solid 5px black;
+        }
+        .founder-div-img img{
+            position: relative;
+            width: 100%;
+            top: 25px;
+            right: 25px;
+        }
+        .founder-div-text {
+            position: static;
+            width: 94%;
+            padding: 59px 72px;
+
+        }
+        .founder-div-text h3 {
+            font-size: 20px;
+        }
+        .founder2-show{
+            display: block;
+        }
+}

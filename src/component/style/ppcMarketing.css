@@ -1,0 +1,154 @@
+.ppc-service-div{
+    display: flex;
+}
+.ppc-sec-2{
+    padding: 40px;
+}
+.ppc-sec-2 h6{
+    color: #11161e;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+}
+.ppc-sec-2 p{
+    color: #777;
+    font-family: "verdana",Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.ppc-service-icon{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.ppc-text h6{
+    padding-top:10px ;
+    padding-left: 20px;
+    color: #343f5a;
+    font-family: "Poppins",Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+.ppc-service-div{
+    margin-top: 20px;
+}
+.what-we-do{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.what-we-do h6{
+    color: #ffa800;
+    font-family: "Oswald",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+    text-align: center;
+}
+.what-we-do h5{
+    color: #343f5a;
+    font-family: "Oswald",Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align: center;
+}
+.what-we-do-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+.what-we-do-grid .grid-item p{
+    font-family: 'Poppins', sans-serif; 
+}
+.benefits{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.benefits-div{
+    width: 40%;
+}
+.benefits-div h2{
+    color: #343f5a;
+    font-family: "Oswald",Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+.benefits-div img{
+    width: 100%;
+}
+.benefits-div ul li {
+    color: #777;
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .ppc-sec-2{
+        padding: 10px;
+    }
+    .ppc-service-icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 8px;
+    }
+    .ppc-text h6{
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .what-we-do-grid{
+        display: grid;
+        grid-template-columns:auto;
+        width: 90%;
+        margin: auto;
+    }
+    .benefits{
+        padding: 10px 10px;
+        flex-direction: column;
+    }
+    .benefits-div{
+        width: 90%;
+    }
+    .benefits-div h2 {
+        font-size: 34px;
+       
+    }
+}
+
+@media (min-width: 767px) and (max-width: 821px) {
+    .social-media p {
+        font-size: 20px;
+    }
+    .what-we-do-grid{
+        width: 98%;
+    }
+    .what-we-do-grid {
+        grid-template-columns: auto auto;
+        width: 90%;
+    }
+    .grid-item{
+        margin: 10px;
+        padding: 10px;
+    }
+    .benefits-div {
+        width: 47%;
+    }
+    .benefits-div h2 {
+        font-size: 32px;
+    }
+    .benefits-div ul li {
+        font-size: 18px;
+    }
+}

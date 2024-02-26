@@ -1,0 +1,293 @@
+.software-sec-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.software-div{
+    width: 45%;
+    padding: 40px 20px;
+}
+.software-div img{
+    width: 100%;
+}
+.software-div h3{
+    color: #ffa800;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 6px;
+}
+.software-div h2{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.software-div p{
+    color: #777;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 14px;
+}
+.software-services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+.software-services .grid-item{
+    padding: 0px;
+    text-align: start;
+}
+.software-services .grid-item img{
+    width: 100%;
+}
+.software-services .grid-item h2{
+    color: #11161e;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.software-services .grid-item p{
+    color: #777;
+    font-family: "Open Sans",Sans-serif;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.software-service{
+    text-align: center;
+}
+.software-service h6{
+    color: #ffa800;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 6px;
+}
+.software-service h5{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.software-sec-4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.software-sec-4 h6{
+    color: #ffa800;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 6px;
+    text-align: center;
+}
+.software-sec-4 h5{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.process-software{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
+}
+.process-software .step{
+    box-shadow: 0px 2px 4px 0px #1b1919;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.process-software .step:hover{
+    border: #1b1919 solid 2px;
+}
+
+.step h2{
+    color: #11161e;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.step img{
+    width: 30%;
+}
+.step p{
+    color: #777;
+    font-weight: 300;
+    font-family: "Oswald",Sans-serif;
+}
+.software-sec-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 30px;
+}
+.software-why-choose{
+   width: 40%;
+   padding-left: 5px;
+}
+.software-why-choose img{
+    width: 100%;
+ }
+
+ .software-why-choose h2{
+    font-family: "Oswald",Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+ }
+ .software-why-choose ul li{
+    margin-top: 10px;
+    color: #777;
+    font-weight: 300;
+    font-family: "Oswald",Sans-serif;
+    font-size: 20px;
+ }
+ .software-sec-6{
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+    background-image: url('../images/strategy-background.jpg');
+ }
+ .software-sec-6 h2{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 48px;
+ }
+ .software-sec-6 p{
+    color: white;
+ }
+
+ .android-services{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin: auto;
+ }
+ .android-services img{
+    width: 90%;
+ }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .software-sec-2{
+        flex-direction: column;
+    }
+    .software-div{
+        width: 90%;
+        padding: 20px 10px;
+    }
+    .software-services{
+        grid-template-columns:auto;
+        width: 100%;
+        margin: auto;
+    }
+    .software-service h5{
+        font-size: 26px;
+    }
+    .software-sec-4 h5{
+        font-size: 26px;
+    }
+    .process-software{
+        grid-template-columns: auto auto;
+        width: 100%;
+        margin: auto;
+    }
+    .process-software .step{
+        margin: 10px;
+        padding: 0px 15px;
+    }
+    .software-sec-5{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .software-why-choose{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .software-why-choose img{
+        width: 100%;
+     }
+     .software-sec-6{
+        padding: 80px 40px;
+       
+     }
+
+     /* CSS FOR ANDROID PAGE */
+     .android-services{
+        grid-template-columns: auto;
+        width: 90%;
+        margin: auto;
+     }
+     .android-services img{
+        width: 100%;
+     }
+}
+@media (min-width: 767px) and (max-width: 821px) {
+
+    /* for tablet iPad */
+    .software-div {
+        width: 50%;
+    }
+    .software-div img{
+        margin-top: 80px;
+    }
+    .software-services {
+        width: 100%;
+        margin: auto;
+    
+    }
+    .software-services .grid-item h2 {
+        padding-left: 7px;
+        font-size: 24px;
+    }
+    .software-services .grid-item p {
+        padding-left: 7px;
+    }
+    .process-software {
+        grid-template-columns: auto auto;
+        width: 90%;
+        margin: auto;
+    }
+    .software-sec-5 {
+        padding: 40px 0px;
+    }
+    .software-why-choose {
+        width: 46%;
+    }
+    .software-why-choose img {
+        width: 100%;
+    }
+    .software-why-choose ul li {
+        font-size: 17px;
+    }
+    .software-sec-6 h2 {
+        font-size: 41px;
+    }
+    .android-services {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 90%;
+        margin: auto;
+    }
+
+}
